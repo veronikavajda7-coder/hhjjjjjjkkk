@@ -1,0 +1,309 @@
+<!DOCTYPE TYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нонсенс СНАТ - приєднуйся до спільноти</title>
+    <meta name="description" content="Нонсенс СНАТ - місце для спілкування, нових знайомств, веселих ігор та гарного настрою.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ 
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+ 
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="brand">
+      <span class="seal" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/>
+        </svg>
+      </span>
+      <span class="brand-text">ᴍᴏɴꜱᴇʏ ᴄʜᴀᴛ</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Відкрити меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Головна</a></li>
+      <li><a href="#admin" class="nav-link">Адміністрація</a></li>
+      <li><a href="#rules" class="nav-link">Правила</a></li>
+      <li><a href="https://t.me/+tT0ogZeKSRczNmE6" class="nav-link nav-link--cta" target="_blank" rel="noopener">Приєднатися</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+<main>
+ 
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <div class="medallion" aria-hidden="true">
+        <span class="medallion-ring"></span>
+        <svg viewBox="0 0 40 40" width="46" height="46">
+          <path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/>
+        </svg>
+      </div>
+      <p class="eyebrow">Telegram · Спільнота</p>
+      <h1 class="hero-title">ᴍᴏɴꜱᴇʏ ᴄʜᴀᴛ</h1>
+      <p class="hero-tagline">Вас вітає <span class="script">ᴍᴏɴꜱᴇʏ ᴄʜᴀᴛ</span> 💖</p>
+      <p class="hero-desc">
+        Місце для спілкування, нових знайомств, веселих ігор та гарного настрою.
+        Тут кожен знайде компанію для розмов, розваг та дружнього спілкування.
+        Приєднуйся до нас та стань частиною нашої спільноти!
+      </p>
+      <a href="https://t.me/+tT0ogZeKSRczNmE6" class="btn btn-primary" target="_blank" rel="noopener">
+        <span>✨ Приєднатися до чату ✨</span>
+      </a>
+    </div>
+    <div class="scroll-hint reveal" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+ 
+  <!-- ADMIN -->
+  <section class="section" id="admin">
+    <div class="section-inner">
+      <p class="eyebrow reveal">Хто веде чат</p>
+      <h2 class="section-title reveal">👑 Адміністрація</h2>
+      <p class="section-sub reveal">Команда, що піклується про затишок та порядок у нашій спільноті.</p>
+ 
+      <div class="reveal">
+        <button class="btn btn-outline admin-toggle" id="adminToggle" aria-expanded="false" aria-controls="adminPanel">
+          <span class="crown" aria-hidden="true">👑</span> Адміністрація
+        </button>
+      </div>
+ 
+      <div class="admin-panel" id="adminPanel">
+        <div class="admin-panel-inner">
+          <div class="admin-card glass-card">
+            <span class="admin-card-tag admin-card-tag--owner">Власник</span>
+            <span class="admin-seal" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="28" height="28"><path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/></svg>
+            </span>
+            <a href="https://t.me/nika_vvm" target="_blank" rel="noopener" class="admin-name">@nika_vvm</a>
+          </div>
+          <div class="admin-card glass-card">
+            <span class="admin-card-tag">Заступниця</span>
+            <span class="admin-seal" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="24" height="24"><path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/></svg>
+            </span>
+            <a href="https://t.me/s_weet_angel" target="_blank" rel="noopener" class="admin-name">@s_weet_angel</a>
+          </div>
+          <div class="admin-card glass-card">
+            <span class="admin-card-tag">Заступниця</span>
+            <span class="admin-seal" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="24" height="24"><path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/></svg>
+            </span>
+            <a href="https://t.me/waipova" target="_blank" rel="noopener" class="admin-name">@waipova</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- RULES -->
+  <section class="section section--alt" id="rules">
+    <div class="section-inner">
+      <p class="eyebrow reveal">Перш ніж приєднатись</p>
+      <h2 class="section-title reveal">📜 Правила</h2>
+      <p class="section-sub reveal">Невеличкий звід правил, який тримає наш чат теплим та приємним для всіх.</p>
+ 
+      <div class="accordion reveal" id="accordion">
+ 
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="accordion-icon" aria-hidden="true">📌</span>
+            <span class="accordion-label">Поведінка в чаті</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel">
+            <div class="accordion-panel-inner">
+              <ol class="rule-list">
+                <li><strong>Поважати адміністрацію та учасників</strong> — варн → бан до 2 діб</li>
+                <li><strong>Образи / токсична поведінка</strong> — варн → мут → бан</li>
+                <li><strong>Спам</strong> — варн → мут 1 год → бан 3 доби</li>
+                <li><strong>18+ контент</strong> — бан назавжди</li>
+                <li><strong>Посилання / реклама</strong> — мут 1 год</li>
+                <li><strong>Образи на релігію / країну / національність</strong> — мут 45 хв → бан 6 діб</li>
+                <li><strong>Порушення з боку адміністрації</strong> — зняття прав адміна (1–6 діб або довше)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="accordion-icon" aria-hidden="true">🎮</span>
+            <span class="accordion-label">Правила UNO</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel">
+            <div class="accordion-panel-inner">
+              <h4 class="rule-heading">Що це за гра?</h4>
+              <p>Класична карткова гра UNO, де гравці повинні позбутися всіх своїх карт раніше за інших.</p>
+ 
+              <h4 class="rule-heading">Як грати?</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Кожен гравець на початку гри отримує 7 карт.</li>
+                <li>Гра починається з випадкової карти на столі.</li>
+                <li>Гравці ходять по черзі за годинниковою стрілкою.</li>
+              </ul>
+ 
+              <p class="rule-sub">Під час свого ходу можна:</p>
+              <ul class="rule-list rule-list--bullets">
+                <li>Зіграти карту того ж кольору або номера.</li>
+                <li>Використати спеціальні карти: <strong>+2, +4, Reverse, Skip, Wild</strong>.</li>
+                <li>Взяти карту з колоди, якщо немає відповідної карти.</li>
+              </ul>
+ 
+              <h4 class="rule-heading">Особливості</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Карти +2 та +4 можуть накопичуватися.</li>
+                <li>+4 можна оскаржити.</li>
+                <li>Reverse змінює напрямок гри.</li>
+                <li>Shuffle перемішує карти всіх гравців.</li>
+                <li>Якщо залишилась одна карта — необхідно натиснути кнопку «УНО!».</li>
+                <li>Якщо інший гравець натисне її раніше за вас — ви отримуєте штраф 2 карти.</li>
+              </ul>
+ 
+              <h4 class="rule-heading">Перемога</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Перший гравець без карт отримує 3 очки.</li>
+                <li>Інші гравці отримують очки відповідно до результатів раунду.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="accordion-icon" aria-hidden="true">🎲</span>
+            <span class="accordion-label">Правда або Дія</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel">
+            <div class="accordion-panel-inner">
+              <h4 class="rule-heading">Що це за гра?</h4>
+              <p>Класична гра для компанії, де потрібно обрати між правдивою відповіддю або виконанням завдання.</p>
+ 
+              <h4 class="rule-heading">Як грати?</h4>
+              <p class="rule-sub">На кожному ході гравець обирає:</p>
+              <ul class="rule-list rule-list--bullets">
+                <li><strong>Правда</strong> — чесно відповісти на питання.</li>
+                <li><strong>Дія</strong> — виконати запропоноване завдання.</li>
+              </ul>
+ 
+              <h4 class="rule-heading">Важливо</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Для відповіді або виконання завдання потрібно відповісти на повідомлення бота.</li>
+                <li>Гра триває, поки її не буде завершено або поки не залишиться гравців.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="accordion-icon" aria-hidden="true">❓</span>
+            <span class="accordion-label">Правда або Фейк</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel">
+            <div class="accordion-panel-inner">
+              <h4 class="rule-heading">Що це за гра?</h4>
+              <p>Відгадуйте, що є правдою, а що вигадкою, та перевіряйте свої знання.</p>
+ 
+              <h4 class="rule-heading">Як грати?</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Кожному гравцю задаються питання з різних категорій.</li>
+                <li>На відповідь дається обмежений час (<strong>11 секунд</strong>).</li>
+              </ul>
+ 
+              <p class="rule-sub">Варіанти відповіді:</p>
+              <ul class="rule-list rule-list--bullets">
+                <li>Правда</li>
+                <li>Фейк</li>
+              </ul>
+ 
+              <p class="rule-sub">За правильну відповідь нараховуються очки.</p>
+ 
+              <h4 class="rule-heading">Переможець</h4>
+              <p>Гравець з найбільшою кількістю очок після завершення гри.</p>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="accordion-icon" aria-hidden="true">🎭</span>
+            <span class="accordion-label">Хто Я? Що Я?</span>
+            <span class="accordion-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-panel">
+            <div class="accordion-panel-inner">
+              <h4 class="rule-heading">Що це за гра?</h4>
+              <p>Кожен гравець отримує персонажа та повинен відгадати, хто він.</p>
+ 
+              <h4 class="rule-heading">Як грати?</h4>
+              <ul class="rule-list rule-list--bullets">
+                <li>Персонажі надсилаються в особисті повідомлення або доступні через кнопку «Інформація».</li>
+                <li>Гравці по черзі ставлять питання.</li>
+                <li>Відповідати можна лише «Так» або «Ні».</li>
+              </ul>
+ 
+              <h4 class="rule-heading">Важливо</h4>
+              <p>Питання потрібно ставити у відповідь на повідомлення бота.</p>
+ 
+              <h4 class="rule-heading">Перемога</h4>
+              <p>Перший гравець, який вгадає свого персонажа, перемагає.</p>
+ 
+              <p class="rule-sub">Нагороди:</p>
+              <ul class="rule-list rule-list--bullets">
+                <li>🥇 1 місце — 3 очки</li>
+                <li>🥈 2 місце — 2 очки</li>
+                <li>🥉 Інші гравці, які вгадали — 1 очко</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FINAL CTA -->
+  <section class="section cta-section">
+    <div class="section-inner cta-inner reveal">
+      <div class="medallion medallion--small" aria-hidden="true">
+        <span class="medallion-ring"></span>
+        <svg viewBox="0 0 40 40" width="32" height="32">
+          <path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/>
+        </svg>
+      </div>
+      <h2 class="cta-title">Готові приєднатись?</h2>
+      <p class="cta-text">Тепла компанія, веселі ігри та гарний настрій вже чекають на тебе.</p>
+      <a href="https://t.me/+tT0ogZeKSRczNmE6" class="btn btn-primary" target="_blank" rel="noopener">
+        <span>✨ Приєднатися до чату ✨</span>
+      </a>
+    </div>
+  </section>
+ 
+</main>
+ 
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="seal seal--footer" aria-hidden="true">
+      <svg viewBox="0 0 40 40" width="22" height="22"><path class="seal-heart" d="M20 31C20 31 6 22.5 6 13.6C6 8.6 9.9 5 14.4 5C17 5 19 6.3 20 8.2C21 6.3 23 5 25.6 5C30.1 5 34 8.6 34 13.6C34 22.5 20 31 20 31Z"/></svg>
+    </span>
+    <p>ᴍᴏɴꜱᴇʏ ᴄʜᴀᴛ © 2026 · зроблено з 💖 для нашої спільноти</p>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
